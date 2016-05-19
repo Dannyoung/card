@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+    background: none repeat scroll 0 0 ##010F1A;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    overflow: hidden !important;
+	}
+.contenedor_principal {
+    margin: 0 auto;
+    text-align: center;
+	position: relative;
+	}
+img { 
+	display: block;
+	}	
+.texto_inicio{
+	left: 50%;
+    margin: -25px 0 0 -415px;
+    position: fixed;
+    top: 35%;
+}
+.tutorial {
+    background: url("../images/monitor.png") no-repeat scroll 0 0 transparent;
+    height: 517px;
+    top: 110%;
+	left: 50%;
+    width: 676px;
+	position: fixed;
+	margin: 0 0 0 -338px
+	}	
+.tutorial embed{ 
+	margin: 68px 0 0 0px;
+	}

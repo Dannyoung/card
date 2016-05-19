@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>greeting card</title>
+	<meta name="keywords" content="card,greeting card,new year card " />
+	<meta name="description" content="new year greeting card" />
+	<meta name="author" content="周丹燕" />
+	<!--Styles-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--JS-->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bg_resize.js"></script>
+	<script type="text/javascript" src="js/script.js">
+	</script>
+	<script>
+		$(document).ready(function(){
+			$("body").ezBgResize({
+				img:"images/back.jpg",
+				opacity:1,
+				center:true
+				});
+			});
+	</script>
+</head>
+
+<body>
+	<div class="contenedor_principal" style="width: 1332px;">
+		<a class="texto_inicio" href="javascript:void(0);">
+			<img alt="texto_inicio img" src="images/guide.png" style="border:0;"></img>
+		</a>
+		
+		<a class="tutorial tutorial_btn_activo" href="javascript:void(0);">
+		</a>
+	</div>
+	<div id="jq_ez_bg" style="visibility:visible;position:fixed;top:0px;left:0px;z-index:-1;overflow:hidden;width:1280px;height:700px;opacity:1;">
+		<img width="1920" height="1080" border="0" src="images/back1.jpg" style="position:relative;width:1280px;height:721px;left:0px;top:-11.5px;" />
+	</div>
+</body>
+</html>
